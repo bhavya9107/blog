@@ -3,7 +3,6 @@ header {
       -webkit-filter: brightness(90%);
       background: url('http://www.pixelstalk.net/wp-content/uploads/2016/03/Beautiful-Snowy-Mountain-Winter-Wallpaper.jpg');
       background-size: cover;
-  background-position: left center;
       color: white;
       background-attachment: fixed;
       animation: back 15s ease-in infinite;
@@ -15,7 +14,7 @@ header {
   }
   50%{
     background-image: url('http://orig12.deviantart.net/ef42/f/2015/341/d/6/flat_landscape__winter_edition__by_jovicasmileski-d9jbz70.jpg');
-    background-position: top right;
+    background-position: bottom right;
     color: royalblue;
     
   }
@@ -59,6 +58,7 @@ button{
   box-shadow:none;
   border:none;
   padding:5px;
+  cursor:pointer;
   color:white;
 }
 article{
